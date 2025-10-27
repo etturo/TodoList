@@ -5,25 +5,33 @@
 #ifndef TODOLIST_TASK_H
 #define TODOLIST_TASK_H
 
-#include <string>
+#define DONE 1
+#define TODO 0
 
+#include <string>
+#include <iostream>
+
+#include "../includes/ClearScreen.h"
 
 class Task {
 private:
 	std::string Title;
 	std::string Description;
-	std::string CreationData;
+	time_t CreationTime;
 	int Prioity;
 	bool Status;
-protected:
+public:
+	Task();
+	//~Task();
+
 	std::string getTitle() {
 		return Title;
 	}
 	std::string getDescription() {
 		return Description;
 	}
-	std::string getData() {
-		return CreationData;
+	time_t getTime() {
+		return CreationTime;
 	}
 	int getPriority() {
 		return Prioity;
@@ -31,11 +39,6 @@ protected:
 	bool getStatus() {
 		return Status;
 	}
-public:
-	Task(std::string title, std::string description, std::string data, int priority, bool status);
-
-
 };
-
 
 #endif //TODOLIST_TASK_H

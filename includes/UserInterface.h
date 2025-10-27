@@ -7,10 +7,18 @@
 
 #include <iostream>
 
+enum class choices {
+	add_task = '1',
+	view_tak = '2',
+	check_task = '3',
+	exit = '4'
+};
+
 class UserInterface {
 public:
 	void DisplayMenu();
+	int handleChoice();
 };
 
 
-#endif //TODOLIST_USERINTERFACE_H
+#endif //TODOLIST_USERI NTERFACE_H
