@@ -1,0 +1,3 @@
+/Volumes/michele/progetti_c++/ToDoList/cmake-build-debug/CMakeFiles/ToDoList.dir
+/Volumes/michele/progetti_c++/ToDoList/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Volumes/michele/progetti_c++/ToDoList/cmake-build-debug/CMakeFiles/rebuild_cache.dir
