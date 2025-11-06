@@ -10,8 +10,8 @@ sources/Task.cpp
 includes/Task.h
 sources/UserInterface.cpp
 includes/UserInterface.h
-        sources/ClearScreen.cpp
-        includes/ClearScreen.h
+        sources/TaskHandler.cpp
+        includes/TaskHandler.h
 )
 
 target_link_libraries(ToDoList PRIVATE

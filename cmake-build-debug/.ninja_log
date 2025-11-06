@@ -1,17 +1,9 @@
 # ninja log v6
-13	344	1761599351000000000	CMakeFiles/ToDoList.dir/sources/Task.cpp.o	12f01e27b1016b7e
-12	336	1761599351000000000	CMakeFiles/ToDoList.dir/main.cpp.o	72aa13ea83f699d5
-7	108	1761599675000000000	/Volumes/michele/progetti_c++/ToDoList/cmake-build-debug/cmake_install.cmake	63595608434fb498
-344	431	1761599351000000000	ToDoList	ad9513e05bc7024c
-13	339	1761599351000000000	CMakeFiles/ToDoList.dir/sources/UserInterface.cpp.o	9bf2efba129baa03
-7	108	1761599675000000000	build.ninja	63595608434fb498
+2	208	1762434012000000000	CMakeFiles/ToDoList.dir/sources/ClearScreen.cpp.o	a4b0d85c54f42252
 18	343	1761596596000000000	CMakeFiles/ToDoList.dir/sources/AddTask.cpp.o	100f011208413a8e
-6	109	1761599675000000000	build.ninja	63595608434fb498
-6	109	1761599675000000000	/Volumes/michele/progetti_c++/ToDoList/cmake-build-debug/cmake_install.cmake	63595608434fb498
-17	387	1761599675000000000	CMakeFiles/ToDoList.dir/main.cpp.o	72aa13ea83f699d5
-17	391	1761599675000000000	CMakeFiles/ToDoList.dir/sources/UserInterface.cpp.o	9bf2efba129baa03
-10	158	1761599815000000000	CMakeFiles/ToDoList.dir/sources/ClearScreen.cpp.o	a4b0d85c54f42252
-9	410	1761599815000000000	CMakeFiles/ToDoList.dir/main.cpp.o	72aa13ea83f699d5
-10	417	1761599815000000000	CMakeFiles/ToDoList.dir/sources/UserInterface.cpp.o	9bf2efba129baa03
-10	422	1761599815000000000	CMakeFiles/ToDoList.dir/sources/Task.cpp.o	12f01e27b1016b7e
-422	512	1761599815000000000	ToDoList	7c3e79059ea132f8
+8	102	1762436635000000000	build.ninja	63595608434fb498
+3	209	1762435281000000000	CMakeFiles/ToDoList.dir/sources/UserInterface.cpp.o	9bf2efba129baa03
+292	323	1762435408000000000	ToDoList	3444c5c55eb771db
+8	102	1762436635000000000	/Volumes/michele/progetti_c++/ToDoList/cmake-build-debug/cmake_install.cmake	63595608434fb498
+2	202	1762435281000000000	CMakeFiles/ToDoList.dir/main.cpp.o	72aa13ea83f699d5
+24	282	1762435407000000000	CMakeFiles/ToDoList.dir/sources/Task.cpp.o	12f01e27b1016b7e

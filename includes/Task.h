@@ -10,15 +10,15 @@
 
 #include <string>
 #include <iostream>
+#include <list>
 
-#include "../includes/ClearScreen.h"
 
 class Task {
 private:
 	std::string Title;
 	std::string Description;
+	std::string Priority;
 	time_t CreationTime;
-	int Prioity;
 	bool Status;
 public:
 	Task();
@@ -33,12 +33,13 @@ public:
 	time_t getTime() {
 		return CreationTime;
 	}
-	int getPriority() {
-		return Prioity;
+	std::string getPriority() {
+		return Priority;
 	}
 	bool getStatus() {
 		return Status;
 	}
+
 };
 
 #endif //TODOLIST_TASK_H

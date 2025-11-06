@@ -6,6 +6,8 @@
 #define TODOLIST_USERINTERFACE_H
 
 #include <iostream>
+#include <list>
+#include "Task.h"
 
 enum class choices {
 	add_task = '1',
