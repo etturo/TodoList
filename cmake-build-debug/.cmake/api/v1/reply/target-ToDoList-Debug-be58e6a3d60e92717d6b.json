@@ -152,7 +152,7 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "sources/TaskHandler.h",
+			"path" : "includes/TaskHandler.h",
 			"sourceGroupIndex" : 1
 		}
 	],

@@ -6,8 +6,9 @@
 #define TODOLIST_USERINTERFACE_H
 
 #include <iostream>
-#include <list>
+
 #include "Task.h"
+#include "TaskHandler.h"
 
 enum class choices {
 	add_task = '1',
@@ -18,8 +19,13 @@ enum class choices {
 
 class UserInterface {
 public:
-	void DisplayMenu();
-	int handleChoice();
+	static void DisplayMenu();
+	static void DisplayAddTask(std::string *title, std::string *description, std::string *priority, time_t *timestamp);
+	static void DisplayViewTasks();
+	static void DisplayCheckTask();
+	static void DisplayTaskRecap();
+
+	int handleChoice(TaskHandler taskHandler);
 };
 
 

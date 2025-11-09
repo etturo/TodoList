@@ -1,15 +1,16 @@
-#include <iostream>
-
-#include "includes/Task.h"
 #include "includes/TaskHandler.h"
 #include "includes/UserInterface.h"
 
 int main() {
-	system("Clear");
-	UserInterface *interface;
-	TaskHandler task;
-	interface->DisplayMenu();
-	interface->handleChoice(task);
+	UserInterface interface;
+	TaskHandler taskHandler;
 
+	bool end = false;
+
+	while (!end) {
+		interface.DisplayMenu();
+		if (interface.handleChoice(taskHandler) < 0)
+			end = true;
+	}
 	return 0;
 }

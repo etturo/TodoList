@@ -5,20 +5,18 @@
 #ifndef TODOLIST_TASKHANDLER_H
 #define TODOLIST_TASKHANDLER_H
 
-#include <list>
-
 #include "Task.h"
-
 
 class TaskHandler {
 private:
 	std::vector<Task> allTasks;
 public:
-	TaskHandler() {
-		allTasks.empty();
-	}
+	TaskHandler();
 	void insertNewTask(Task task);
 	void viewAlltasks();
+	void addNewtask();
+	void completeTask();
+
 };
 
 
